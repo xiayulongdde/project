@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>选项卡和轮播图</title>
+
+</head>
+
+<body>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <nav id="nav">
+        <div class="tabs wianp">
+            <dl class="tabs-list">
+                <dt class="tabs-list-bar"> 全部分类</dt>
+                <dd class="tabs-list-dd"> <a href="" class="anlian"> 微量元素</a> </dd>
+                <dd class="tabs-list-dd"> <a href="" class="anlian"> 微量元素</a> </dd>
+                <dd class="tabs-list-dd"> <a href="" class="anlian"> 微量元素</a> </dd>
+                <dd class="tabs-list-dd"> <a href="" class="anlian"> 微量元素</a> </dd>
+                <dd class="tabs-list-dd"> <a href="" class="anlian"> 微量元素</a> </dd>
+                <dd class="tabs-list-dd"> <a href="" class="anlian"> 微量元素</a> </dd>
+                <dd class="tabs-list-dd"> <a href="" class="anlian"> 微量元素</a> </dd>
+            </dl>
+            <ul class="tads-ul">
+                <li class="tads-ul-li"><a href="#" a="a">微量元素</a></li>
+                <li class="tads-ul-li"><a href="#" a="a">微量元素</a></li>
+                <li class="tads-ul-li"><a href="#" a="a">微量元素</a></li>
+                <li class="tads-ul-li"><a href="#" a="a">微量元素</a></li>
+                <li class="tads-ul-li"><a href="#" a="a">微量元素</a></li>
+                <li class="tads-ul-li"><a href="#" a="a">微量元素</a></li>
+            </ul>
+        </div>
+        <div class="select">
+            <dl class="select-list">
+                <div class="select-list-tab">
+                    <span class="select-list-tab-span">维生素A</span>
+                    <span class="select-list-tab-span">维生素A</span>
+                    <span class="select-list-tab-span">维生素A</span>
+                    <span class="select-list-tab-span">维生素A</span>
+                    <span class="select-list-tab-span">维生素A</span>
+                </div>
+                <dt class="select-list-ber">
+                    <a href="" class="select-list-ber-leit">维生素 ></a>
+                </dt>
+                <dd class="select-multiseriate ">
+                    <a href="" class="select-multiseriate-a">维生素</a>
+                    <a href="" class="select-multiseriate-a">维生素</a>
+                    <a href="" class="select-multiseriate-a">维生素</a>
+                    <a href="" class="select-multiseriate-a">维生素</a>
+                    <a href="" class="select-multiseriate-a">维生素</a>
+                    <a href="" class="select-multiseriate-a">维生素</a>
+                </dd>
+            </dl>
+        </div>
+        <script>
+            var arr = [];
+            $(".recommend-class>span>a").each(function (index, item) {
+                var o = {};
+                o.ie = item.text;
+                arr.push(o)
+            })
+        </script>
+    </nav>
+
+</body>
+
+</html>
