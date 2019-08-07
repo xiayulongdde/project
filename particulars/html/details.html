@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/details.css">
+</head>
+
+<body>
+
+    <!-- 头部 -->
+    <header id="header">
+        <div class="header-top-list  wianp">
+            <!-- 头部的链接区域 -->
+            <div class="header-top">
+                <div class="header-top-left">
+                    欢迎<a href="" class="top-skip">百洋健康</a>[
+                    <a href="" class="top-skip">登录</a>
+                    ]
+                    [
+                    <a href="" class="top-skip">注册</a>
+                    ]
+                </div>
+                <div class="header-top-right">
+                    <dl class="top-list">
+                        <dt class="top-list-bar">我的订单</dt>
+                        <dd class="top-linst-conrt">
+                            <a href="">待付款订单</a>
+                            <a href="">待确定收货</a>
+                            <a href="">待评价交易</a>
+                        </dd>
+                    </dl>
+                    <dl class="top-list">
+                        <dt class="top-list-bar">我的收藏</dt>
+                        <dd class="top-linst-conrt">
+                            <a href="">商品收藏</a>
+                            <a href="">店铺收藏</a>
+                        </dd>
+                    </dl>
+                    <dl class="top-list">
+                        <dt class="top-list-bar">客户服务</dt>
+                        <dd class="top-linst-conrt">
+                            <a href="">帮助中心</a>
+                            <a href="">售后服务</a>
+                            <a href="">客服中心</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <!-- 头部的logo区域 -->
+            <div class="header-img">
+                <a href="">
+                    <img src=" https://b2cstatic.baiyangwang.com/shop/common/logo.png" alt="" class="pngFix">
+                </a>
+                <form action="">
+                    <div class="form-bar">
+                        <a href="" class="form-bar-a">店铺</a>
+                    </div>
+                    <input id="keyword" class="form-seek" placeholder="请输入您要搜索的商品关键字" value="" name="keyword"
+                        autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" type="text">
+                    <button class="form-button">搜素</button>
+                    <ul class="form-ul">
+                        <li class="form-ul-li"><a href="" class="form-ul-li-a">迪巧</a>
+                        </li>
+                        <li class="form-ul-li"><a href="" class="form-ul-li-a">蛋白粉</a>
+                        </li>
+                        <li class="form-ul-li"><a href="" class="form-ul-li-a">眼贴</a>
+                        </li>
+                        <li class="form-ul-li"><a href="" class="form-ul-li-a">玻尿酸</a>
+                        </li>
+                        <li class="form-ul-li"><a href="" class="form-ul-li-a">橄榄油</a>
+                        </li>
+                        <li class="form-ul-li"><a href="" class="form-ul-li-a">麦片</a>
+                        </li>
+                    </ul>
+                </form>
+                <div class="myword">
+                    <div class="myword-left">我的商场</div>
+                    <div class="myword-rigth">购物车结算</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav></nav>
+    <!-- 详情页主要内容 -->
+    <div class="ncs-detail">
+        <div class="ncs-detail-conter wianp ">
+            <!-- 页面中的img -->
+            <div class="ncs-img">
+                <div class="ncs-big-img">
+                    <img src="" alt="">
+                </div>
+                <div class="ncs-small-img">
+                    <div class="ncs-small-img-1">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                    <div class="ncs-small-img-1"></div>
+                </div>
+            </div>
+            <!-- 页面中的商品介绍 -->
+            <div class="ncs-goods-summary">
+                <div class="country-img">
+                    <a href="">
+                        <img src="https://b2cstatic.baiyangwang.com/shop/country/admin_1535604428161.jpg" alt="">
+                        美国
+                    </a>
+                </div>
+                <div class="ncs-goods-summary-character"></div>
+                <div class="ncs-goods-summary-carriage"></div>
+                <div class="ncs-goods-summary-http"></div>
+                <div class="ncs-buy">
+                    <div class="ncs-figure-input">
+                        <input type="text" name="" id="quantity" value="1" size="3" maxlength="6" class="input-text">
+                        <a href="javascript:void(0)" class="increase" nctype="increase">&nbsp;</a> <a
+                            href="javascript:void(0)" class="decrease" nctype="decrease">&nbsp;</a> </div>
+                    <div class="ncs-point" style="display: none;"><i></i>
+                        <!-- S 库存 -->
+                        <span>您选择的商品库存<strong nctype="goods_stock">16</strong>件</span>
+                        <!-- E 库存 -->
+                    </div>
+                    <!-- S 提示已选规格及库存不足无法购买 -->
+                    <!-- E 提示已选规格及库存不足无法购买 -->
+                    <!-- S 购买按钮 -->
+                    <div class="ncs-btn">
+                        <!-- 加入购物车 -->
+                        <a class="addcart " title="加入购物车"><i
+                                class="icon-shopping-cart"></i>加入购物车</a>
+                        <!-- 立即购买 -->
+                        <a href="javascript:void(0);" nctype="buynow_submit" class="buynow " title="立即购买">立即购买</a>
+                        <!-- S 加入购物车弹出提示框 -->
+                        <!-- <div class="ncs-cart-popup">
+                            <dl>
+                                <dt class="ncs-cart-popup-join">
+
+                                    成功添加到购物车<a title="关闭" onclick="$('.ncs-cart-popup').css({'display':'none'});">X</a>
+                                </dt>
+                                <dd>购物车共有 <strong id="bold_num"></strong> 种商品 总金额为：<em id="bold_mly" class="saleP"></em>
+                                </dd>
+                                <dd class="btns"><a href="javascript:void(0);" class="ncbtn-mini ncbtn-mint"
+                                        onclick="location.href='https://www.baiyangwang.com/index.php?act=cart'">查看购物车</a>
+                                    <a href="javascript:void(0);" class="ncbtn-mini" value=""
+                                        onclick="$('.ncs-cart-popup').css({'display':'none'});">继续购物</a></dd>
+                            </dl>
+                        </div> -->
+                        <!-- E 加入购物车弹出提示框 -->
+                    </div>
+                    <!-- E 购买按钮 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
